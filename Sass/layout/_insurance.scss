@@ -1,0 +1,23 @@
+.insurance{
+    &__img{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;    
+    }
+.logo-icon{
+    display: flex;
+    justify-content: center;
+    padding: 10px 150px;
+    margin-bottom: 45px;
+    width:80%;
+    &__img{
+        width: 100%;
+        padding-top: 15px;
+        border: 1px solid $gray-color;
+        img{
+            width: 180px;
+            padding: 15px 35px;
+            }
+        }
+    }
+}

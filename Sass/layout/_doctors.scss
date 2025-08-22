@@ -1,0 +1,51 @@
+.doctors {
+  background-color: $light-color;
+  padding: 40px;
+  font-family: $main-font;
+
+  &__images {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+  }
+
+  .img-icon {
+    width: 30%;
+    &__img {
+      width: 100%;
+      img {
+        width: 250px;
+      }
+    }
+    &__text {
+      height: 70px;
+      margin-top: 20px;
+      margin-left: 45px;
+      h3 {
+        margin-bottom: 10px;
+        font-size:22px;
+        color: $dark-color;
+        text-transform: capitalize;
+      }
+      span {
+        font-size:20px;
+        color: $gray-color;
+      }
+      i {
+        color: $dark-color;
+        margin-left: 15px;
+      }
+    }
+
+    &__text:hover {
+      background-color: $primary-color;
+      transition: all 0.5s ease-in-out;
+      h3,
+      span,
+      i {
+        color: $light-color;
+      }
+    }
+  }
+}

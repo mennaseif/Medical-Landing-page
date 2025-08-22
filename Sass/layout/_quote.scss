@@ -1,0 +1,44 @@
+.quote {
+  margin-top:50px;
+  height: 40vh;
+  background-color: $secondary-color;
+  padding: 40px;
+  font-family: $main-font;
+  &__text {
+    margin-top:15px;
+    display: flex;
+    text-align: center;
+    &--p {
+      color: $light-color;
+      font-size:17px;
+      width: 50%;
+      margin: auto;
+    }
+
+  }
+  .border {
+    border: 1px solid $light-color;
+    width:90px;
+    margin:auto;
+    margin-top: 10px;
+  }
+  i {
+    color: $light-color;
+    font-size:15px;
+  }
+  .fa-quote-right {
+    display: flex;
+    justify-content: center;
+    margin-left: 1100px;
+  }
+  .fa-quote-left {
+    margin-left: 300px;
+  }
+  .quote__--name {
+    color: $light-color;
+    font-size: 20px;
+    display: flex;
+   justify-content: center;
+    margin-top: 20px;
+  }
+}
